@@ -1,0 +1,28 @@
+/****************************************/
+/* Приклад коду властивостей для header */
+/****************************************/
+
+/* Для закоментованих властивостей можна */
+/* вказати власні значення та зняти коментар */
+
+header {
+    background-color: #999;
+    font-family: 'Vollkorn',serif;
+    background-image: url("../images/header_bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    color:#fff;
+    text-align: center;
+    font-size: 15px;
+    font-size: 4.5rem;
+    font-family: 'Merriweather',serif;
+}
+
+header h1 span {
+    color: #EA5E52;
+}
+@media screen and (max-width:565px){
+    header {
+    background-image: url("../images/header_sm_bg.jpg");
+    }
+}

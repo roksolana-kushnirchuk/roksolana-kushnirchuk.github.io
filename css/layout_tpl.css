@@ -1,0 +1,215 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.container,
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Плавні зміни властивостей лінків */
+a {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/*************************************/
+/* Зміни CSS коду розпочинати звідси */
+/*************************************/
+
+header .row {
+    min-height: 100vh;
+} 
+
+section {
+    min-height: 100vh;    /* !!! Тимчасово для відладки !!! Висота секцій рівна висоті екрану */
+    padding: 50px 0;  /* Внітрішні відступи зверху та знизу у секціях <section> */
+    padding-right: 0;
+}
+section#s2{
+/*    background-color: #212529;*/
+    min-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+p { padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Vollkorn',
+    serif;
+    font-weight: 500;
+    color: #fff;
+/*    padding-bottom: 5%;*/
+    
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:'Vollkorn',
+    serif;
+    font-weight: 400;
+    color: #2d2b2b;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Vollkorn',
+    serif;, 700;
+    color: #EA5E52;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 40px;
+    font-family: 'Vollkorn',
+    serif;
+    color: #fff;
+    padding-top: 20px;
+}
+
+p1 {
+    font-size: 18px;
+    font-family: 'Vollkorn',
+    serif;
+    line-height: 1.5;
+}
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #EA5E52;
+}
+.item2 {
+    padding-bottom: 40px;
+}
+
+.item3 {
+    padding-left: 65px;
+    padding-bottom: 30px;
+}
+
+#portfolio {
+    background-color: #fff;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#contact .row{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact{
+	color: white;
+}
+#contact h1{color: #646666}
+
+#sM {
+margin-left: 17%;
+width: 66.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+text-align: center;
+}
+#sMI
+{
+margin-left: 17%;
+width: 66.66666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+text-align: center;
+    background-color:#646666 
+}
+.form-control-white {
+    background: transparent;
+    color:#646666;
+}
+
+.form-control-white::-webkit-input-placeholder { /* WebKit browsers */
+    color: #a3a3a3;
+}
+.form-control-white:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  #a3a3a3;
+    opacity:  1;
+}
+.form-control-white::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color:  #a3a3a3;
+    opacity:  1;
+}
+.form-control-white:-ms-input-placeholder { /* Internet Explorer 10+ */
+     color:  #a3a3a3;
+}
+
+#f{
+    justify-content: center;
+}
+#footer i{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+#foto{
+    
+    width: 100%;
+} 
+
+#s4 {
+    min-height: inherit;
+}
+
+#s4 .padbot30 {
+    font-size: 45px;
+    letter-spacing: 25px;
+   padding-top: 30px;
+    padding-left: 48px;
+    color: #212529;  
+}
+.slider{
+     background-color: #212529;
+}
+a {
+    color: #212529;  /* Колір текстових лінків */
+}
+#cntr {
+    padding-top: 10%;
+}
+a:focus,
+a:hover {
+    color: #EA5E52;  /* Колір текстових лінків для псевдокласів */
+}
+
+/**************************************/
+/* Зміна властивостей для breakpoints */
+/**************************************/
+
+@media screen and (max-width:575px) {
+    .container,
+    .navbar {
+        padding-left: 15px;    /* Для Small додати відступи */
+        padding-right: 15px;   /* зліва та справа у .container та .navbar */
+    }
+
+    /* Приклад зміни відступів зверху, знизу для секцій на Small екранах */
+
+    section {
+/*        padding: 25px 0;*/
+    }
+
+}

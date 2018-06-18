@@ -1,0 +1,71 @@
+.slider-wrapper {
+    background-color: rgb(35, 35, 35);
+    /*background-image: url("../images/186144-OX1QSE-595.jpg");*/
+    padding: 0;
+    }
+
+
+.carousel {
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 0;
+    color: #fff; 
+    margin-right:0;
+    }
+
+.carousel-control-prev,
+.carousel-control-next {
+  /*  background-color:#EA5E52;*/
+    max-width: 48px;
+    max-height: 48px;
+    top: 50%;
+    margin-top:-24px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color:#bbb;
+    max-width: 48px;
+    max-height: 48px;
+    top: 50%;
+    margin-top:-24px;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon  {
+  color:#EA5E52;
+}
+
+.carousel-control-next-icon
+{
+color: grey;
+}
+.carousel-indicators li {
+   background-color:#bbb;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.carousel-indicators .active {
+    background-color: #EA5E52;
+}
+/* Для екранів шириною менше 767px */
+/* мінімальна висота слайдера      */
+/* рівну висоті viewport 100vh     */
+
+@media screen and (max-width:991px) {
+    #slider h4{
+        font-size: 40px;
+        margin-top:25px;
+        text-align: center;
+    }
+    #slider p {
+        font-size: 18px;
+        margin-top:15px;
+        text-align: center;
+    }
+    #slider .carousel-control-next,
+    #slider .carousel-control-prev {
+        display: none;
+    }   
+}
